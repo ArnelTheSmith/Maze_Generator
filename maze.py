@@ -10,7 +10,11 @@ class Maze:
       win=None,
       num_rows=4,
       num_cols=4,
+      seed=None
    ):
+      if seed != None:
+         random.seed(seed)
+         
       self._cells= []
       self._x1 = x1
       self._y1 = y1 
