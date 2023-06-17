@@ -2,7 +2,7 @@ from graphics import Point, Line
 class Cell:
         def __init__(self,win,l_wall=True,r_wall=True,t_wall=True,b_wall=True):
             self.size = None
-            self._visited = False
+            self.visited = False
             self.l_wall = l_wall
             self.r_wall = r_wall
             self.t_wall = t_wall
